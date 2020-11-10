@@ -54,6 +54,7 @@ hr.content-divider {
   background: url("../images/food.webp"), url("../images/food.jpg");
   background-attachment: fixed;
   background-repeat: no-repeat;
+  background-position: center;
   background-size: cover;
   border-top: 10px solid white;
 }
@@ -66,6 +67,7 @@ hr.content-divider {
   background: url("../images/drink.webp"), url("../images/drink.jpg");
   background-attachment: fixed;
   background-repeat: no-repeat;
+  background-position: center;
   background-size: cover;
   border-top: 10px solid white;
 }
@@ -110,19 +112,6 @@ hr.content-divider {
   .hero {
     background-size: 75%;
   }
-  #parallax-1 {
-    background-position: center;
-  }
-  #parallax-2 {
-    background-position: center;
-  }
+
 }
 
-@media only screen and (min-width: 601px) {
-  #parallax-1 {
-    background-position: 50% 75%;
-  }
-  #parallax-2 {
-    background-position: 50% 75%;
-  }
-}
