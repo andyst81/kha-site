@@ -1,139 +1,72 @@
 import React from 'react';
-import {
-	FaSass,
-	FaHtml5,
-	FaReact,
-	FaMobileAlt,
-	FaRocket,
-	FaOsi
-} from 'react-icons/fa';
-
 import './style.scss';
-import Emoji from './emoji';
+import './App.css';
 
 const Midsection = () => (
-	<div>
-		<section className="section">
+	<div className="App">
+	<section className="hero is-medium">
+		<div className="hero-body">
 			<div className="container">
-				<div className="columns is-multiline">
-					<div className="column is-one-third">
-						<article className="media">
-							<figure className="media-left">
-								<span className="icon is-medium">
-									<FaSass size="fa-2x" color="#d22780" />
-								</span>
-							</figure>
-							<div className="media-content">
-								<div className="content">
-									<h1 className="title is-size-4">Uses Bulma</h1>
-									<p className="subtitle is-size-5">
-										Bulma is an open source CSS framework and used by more than
-										100,000 developers.
-									</p>
-								</div>
-							</div>
-						</article>
-					</div>
-					<div className="column is-one-third">
-						<article className="media">
-							<figure className="media-left">
-								<span className="icon is-medium">
-									<FaHtml5 size="fa-2x" className="has-text-danger" />
-								</span>
-							</figure>
-							<div className="media-content">
-								<div className="content">
-									<h1 className="title is-size-4">JAMStack Solution</h1>
-									<p className="subtitle is-size-5">
-										It’s a new way of building websites and apps that delivers
-										better performance, higher security, lower cost of scaling,
-										and a better developer experience.
-									</p>
-								</div>
-							</div>
-						</article>
-					</div>
-					<div className="column is-one-third">
-						<article className="media">
-							<figure className="media-left">
-								<span className="icon is-medium">
-									<FaReact size="fa-2x" color="#5e227f" />
-								</span>
-							</figure>
-							<div className="media-content">
-								<div className="content">
-									<h1 className="title is-size-4">Gatsby + React?</h1>
-									<p className="subtitle is-size-5">
-										Uses Gatsby's version <code>v2</code>, enjoy the power of
-										the latest web technologies. All set up and waiting for you
-										to start building.
-									</p>
-								</div>
-							</div>
-						</article>
-					</div>
-					<div className="column is-one-third">
-						<article className="media">
-							<figure className="media-left">
-								<span className="icon is-medium">
-									<FaMobileAlt size="fa-2x" color="blue" />
-								</span>
-							</figure>
-							<div className="media-content">
-								<div className="content">
-									<h1 className="title is-size-4">Responsive Design</h1>
-									<p className="subtitle is-size-5">
-										Bulma is based on the Flexbox model and built with Sass. The
-										simplest grid system Just add columns, they will resize
-										themselves, like this website.
-									</p>
-								</div>
-							</div>
-						</article>
-					</div>
-
-					<div className="column is-one-third">
-						<article className="media">
-							<figure className="media-left">
-								<span className="icon is-medium">
-									<FaOsi size="fa-2x" className="has-text-primary" />
-								</span>
-							</figure>
-							<div className="media-content">
-								<div className="content">
-									<h1 className="title is-size-4">Open Source</h1>
-									<p className="subtitle is-size-5">
-										This starter kit is MIT Licensed. Need I say more?
-										<Emoji emoji="🤑" />
-									</p>
-								</div>
-							</div>
-						</article>
-					</div>
-					<div className="column is-one-third">
-						<article className="media">
-							<figure className="media-left">
-								<span className="icon is-medium">
-									<FaRocket size="fa-2x" className="has-text-danger" />
-								</span>
-							</figure>
-							<div className="media-content">
-								<div className="content">
-									<h1 className="title is-size-4">Starter Kit</h1>
-									<p className="subtitle is-size-5">
-										This starter kit is target to developers who are looking
-										forward to use Bulma along with GatsbyJS. You can read more
-										in the <a href="https://gatsbyjs.org">documentation</a> on
-										how to get started.
-									</p>
-								</div>
-							</div>
-						</article>
+			</div>
+		</div>
+	</section>
+	<section id="parallax-1" className="hero is-large ">
+		<div className="hero-body">
+			<div className="container">
+				<div className="columns">
+					<div className="column is-6 is-offset-6">
+						<h1 className="title is-1 ">Delicious Modern Thai Food</h1>
+						<hr className="content-divider" />
+						<a href="#" className="button is-white is-inverted">Menu&ensp;<i className="fad fa-chevron-right"></i></a>
 					</div>
 				</div>
 			</div>
-		</section>
-	</div>
+		</div>
+	</section>
+	<section id="parallax-2" className="hero is-large ">
+		<div className="hero-body">
+			<div className="container">
+				<div className="columns">
+					<div className="column is-6">
+						<h1 className="title is-1 ">Amazing Drinks</h1>
+						<hr className="content-divider" />
+						<a href="#" className="button is-white is-inverted">Gallery&ensp;<i className="fad fa-chevron-right"></i></a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section id="parallax-3" className="hero is-large ">
+		<div className="hero-body">
+			<div className="container">
+				<div className="columns">
+					<div className="column is-6 is-offset-6">
+						<h1 className="title is-1 ">Warm and Cozy Atmosphere</h1>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section className="cta va">
+		<div className="container">
+			<div className="columns">
+				<div className="column is-6 line">
+					<h1 className="title is-1 ">Join Our Community</h1>
+					<h2 className="subtitle">Click the button below or scan the QR code to join our Line community and hear about our upcoming events and special offers.</h2>
+					<a href="https://lin.ee/pg909sE"><img src="https://scdn.line-apps.com/n/line_add_friends/btn/en.png" alt="เพิ่มเพื่อน" height="36" border="0" /></a>
+				</div>
+				<div className="column is-6">
+					<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAPoAAAD6AQAAAACgl2eQAAABoklEQVR42u2ZQa6DMAxELeUAHClX95E4QCTXngm0tFUXX3+RkUApouFtrHjGTrD4fbndwA3cwN8At7w2H1sM68Os7TZqyrSA/I3NY++JtQjCnBcCMqgEeC8AD4kJAvgHIOMVBphpyWgCZ8rh1a+cXBk45P8yvvvDysA03VbBpmp6jm9evTpA4ediYVgOgydLAV5xYRLzHfKJdkk5AQDCL8mgmtS9QURaAIyr1ggFpaImKQbAiunGDc5cD7tpAcyuszjGYchawKBkaobFBTXFuhQQR0GP2e7CkMczTA0AK9UpHxhaat/ateIsDzj8CgWlOt5py/EqHAEgUNYrx1rB0wrG08QkAEcpcbyF8GFiJgbMFoV7qLbP3GuhBbCCdDoYtWMfW9r1AcqfHSM2UPG2mioAl4aTLWbfogXgkAeNbuZbdezOPZQUcDzONHNWebuWxeUBbmmDxX128tceRgI4mysC6B794/BwdYBWbDxSQPfOB0UgWNbN2hGpIsDdB1oUt7cWRQFgylHyCJOtuxhA+eNQfX4dgBV0KeD+GnUDN/DfwANbcuNWJz0XaAAAAABJRU5ErkJggg==" 
+						className="line"
+						alt="Line QR code"
+					/>
+				</div>
+			</div>
+		</div>
+
+	</section>
+	
+</div>
 );
 
 export default Midsection;

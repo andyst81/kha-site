@@ -10,7 +10,6 @@ export default () => (
 					siteMetadata {
 						title
 						author
-						imageUrl
 						description
 						keywords
 					}
@@ -26,6 +25,8 @@ export default () => (
 				<meta name="description" content={data.site.siteMetadata.description} />
 				<meta name="keywords" content={data.site.siteMetadata.keywords} />
 				<title>{data.site.siteMetadata.title}</title>
+				<link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600;800&display=swap" rel="stylesheet" />
+				<script src="https://apps.elfsight.com/p/platform.js" defer></script>
 				<html lang="en" />
 				{/* Google / Search Engine Meta Tags */}
 				<meta itemprop="name" content={data.site.siteMetadata.author} />
