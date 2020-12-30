@@ -3,8 +3,8 @@ import "./style.scss";
 import "./App.css";
 
 const Footer = () => (
-  <div className="pt-5 footer columns is-centered mb-0">
-    <div className="content container columns has-text-centered">
+  <div className="footer columns is-centered mb-0">
+    <div className="pt-5 content container columns has-text-centered">
       <div className="column is-one-third">
         <h2 className="details">Opening Hours</h2>
         <p>
@@ -21,7 +21,7 @@ const Footer = () => (
           title="map"
         ></iframe>
         <p>
-          Kha... Eatery and Bar,
+          Kha... Gastrobar,
           <br />
           433 Thanon Suan Phlu,
           <br />

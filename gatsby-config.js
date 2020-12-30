@@ -1,6 +1,6 @@
 module.exports = {
 	siteMetadata: {
-		title: 'Kha... Eatery and Bar',
+		title: 'Kha... Gastrobar',
 		author: 'Andy T',
 		imageUrl: 'https://i.imgur.com/Vz81GEl.png',
 		description: 'Modern Thai Dining and awesome drinks on Soi Suan Phlu',
@@ -9,7 +9,7 @@ module.exports = {
 		github: `https://github.com/andyst81`,
 		gatsby: 'https://www.gatsbyjs.org/',
 		bulma: 'https://bulma.io/',
-		siteUrl: `https://kha.co.th`
+		siteUrl: `https://kha-gastrobar.com`
 	},
 	plugins: [
 		'gatsby-plugin-react-helmet',

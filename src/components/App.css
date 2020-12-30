@@ -4,7 +4,7 @@
 }
 
 .hero {
-  background-image: url("../images/kha transparent logo.webp"), url("../images/kha transparent logo.png");
+  background-image: url("../images/kha-logo.webp"), url("../images/kha-logo.png");
   background-repeat: no-repeat;
   background-position: center;
   background-color:#d2a121;
@@ -108,7 +108,7 @@ hr.content-divider {
   color: #dddddd;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 1241px) {
   .hero {
     background-size: 75%;
   }

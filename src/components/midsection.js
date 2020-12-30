@@ -1,6 +1,7 @@
 import React from 'react';
 import './style.scss';
 import './App.css';
+import menu from "../images/kha-menu.pdf"
 
 const Midsection = () => (
 	<div className="App">
@@ -17,7 +18,7 @@ const Midsection = () => (
 					<div className="column is-6 is-offset-6">
 						<h1 className="title is-1 ">Delicious Modern Thai Food</h1>
 						<hr className="content-divider" />
-						<a href="#" className="button is-white is-inverted">Menu&ensp;<i className="fad fa-chevron-right"></i></a>
+						<a href={menu} className="button is-white is-inverted"><span className="pr-2">Menu</span><i className="fas fa-chevron-right"></i></a>
 					</div>
 				</div>
 			</div>
@@ -30,7 +31,7 @@ const Midsection = () => (
 					<div className="column is-6">
 						<h1 className="title is-1 ">Amazing Drinks</h1>
 						<hr className="content-divider" />
-						<a href="#" className="button is-white is-inverted">Gallery&ensp;<i className="fad fa-chevron-right"></i></a>
+						<a href="#" className="button is-white is-inverted"><span className="pr-2">Gallery</span><i className="fas fa-chevron-right"></i></a>
 					</div>
 				</div>
 			</div>
