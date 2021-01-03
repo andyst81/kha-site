@@ -13,7 +13,7 @@ export default function Navbar() {
           <img
             src={kha}
             alt='Logo'
-            width='90'
+            width='80'
           />
         </a>
 
