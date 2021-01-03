@@ -21,8 +21,13 @@ body {
   margin: 0 auto;
 }
 
-.gallery-nav:hover {
+.gallery-nav div {
   background-color: #d2a121;
+}
+
+.gallery-nav a:hover {
+  background-color: #d2a121;
+  color: white;
 }
 
 .gallery-grid {

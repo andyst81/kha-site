@@ -35,6 +35,9 @@ export default function Navbar() {
       <div id='navbarBasicExample' className={`navbar-menu ${isActive ? 'is-active' : ''}`}>
         <div className='navbar-end'>
           <div className='navbar-item'>
+					<a href='/' className='navbar-item'>
+              Home
+            </a>
             <a href='/gallery' className='navbar-item'>
               Gallery
             </a>
