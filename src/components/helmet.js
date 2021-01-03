@@ -29,15 +29,6 @@ export default () => (
 				<script src="https://apps.elfsight.com/p/platform.js" defer></script>
 				<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous"></link>
 				<html lang="en" />
-				{/* Global site tag (gtag.js) - Google Analytics */}
-				<script async src="https://www.googletagmanager.com/gtag/js?id=G-ZEHSJPTM6V"></script>
-				<script>
-					{window.dataLayer = window.dataLayer || [];
-					function gtag(){dataLayer.push(arguments);}
-					gtag('js', new Date());
-
-					gtag('config', 'G-ZEHSJPTM6V');}
-				</script>
 				{/* Google / Search Engine Meta Tags */}
 				<meta itemprop="name" content={data.site.siteMetadata.author} />
 				<meta
