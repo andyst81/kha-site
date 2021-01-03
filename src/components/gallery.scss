@@ -16,13 +16,13 @@ body {
 }
 
 .gallery-nav {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-gap: 8px;
   max-width: 1200px;
   width: 100%;
   margin: 0 auto;
-  margin-bottom: 30px;
+}
+
+.gallery-nav:hover {
+  background-color: #d2a121;
 }
 
 .gallery-grid {

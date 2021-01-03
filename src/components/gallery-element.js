@@ -2,8 +2,22 @@ import React from "react";
 import "./style.scss";
 import "./App.css";
 import "./gallery.scss";
+import kha1 from "../images/gallery/kha1.jpg";
+import kha2 from "../images/gallery/kha2.jpg";
+import kha3 from "../images/gallery/kha3.jpg";
+import kha4 from "../images/gallery/kha4.jpg";
+import kha5 from "../images/gallery/kha5.jpg";
+import kha6 from "../images/gallery/kha6.jpg";
+import kha7 from "../images/gallery/kha7.jpg";
+import kha8 from "../images/gallery/kha8.jpg";
+import kha9 from "../images/gallery/kha9.jpg";
+import kha10 from "../images/gallery/kha10.jpg";
+import kha11 from "../images/gallery/kha11.jpg";
+import kha12 from "../images/gallery/kha12.jpg";
 
-const imgUrls = ['./gallery/kha1.jpg','/gallery/kha2.jpg','/gallery/kha3.jpg','/gallery/kha4.jpg','/gallery/kha5.jpg','/gallery/kha6.jpg','/gallery/kha7.jpg','/gallery/kha8.jpg','/gallery/kha9.jpg','/gallery/kha10.jpg','/gallery/kha11.jpg','/gallery/kha12.jpg']
+const imgUrls = [kha1, kha2, kha3, kha4, kha5, kha6, kha7, kha8, kha9, kha10, kha11, kha12]
+
+// const imgUrls = [{kha1},'/gallery/kha2.jpg','/gallery/kha3.jpg','/gallery/kha4.jpg','/gallery/kha5.jpg','/gallery/kha6.jpg','/gallery/kha7.jpg','/gallery/kha8.jpg','/gallery/kha9.jpg','/gallery/kha10.jpg','/gallery/kha11.jpg','/gallery/kha12.jpg']
 
 class Gallery extends React.Component {
   constructor(props) {

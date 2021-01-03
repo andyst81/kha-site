@@ -1,17 +1,49 @@
 import React from 'react';
 import kha from '../images/kha.png';
+import menu from "../images/kha-menu.pdf"
 import './style.scss';
 
-const Navbar = () => (
-	<div className="hero-head">
-		<nav className="navbar">
-			<div className="gallery-nav">
-				<a href="/">
-					<img src={kha} alt='Restaurant logo for navigation'/>
-				</a>
-			</div>
-		</nav>
-	</div>
-);
+export default function Navbar() {
+  const [isActive, setisActive] = React.useState(false)
 
-export default Navbar;
+  return (
+    <nav className='navbar  gallery-nav' role='navigation' aria-label='main navigation'>
+      <div className='navbar-brand'>
+        <a href='/' className='navbar-item'>
+          <img
+            src={kha}
+            alt='Logo'
+            width='90'
+          />
+        </a>
+
+        <a
+          onClick={() => {
+            setisActive(!isActive)
+          }}
+          role='button'
+          className={`navbar-burger burger ${isActive ? 'is-active' : ''}`}
+          aria-label='menu'
+          aria-expanded='false'
+          data-target='navbarBasicExample'
+        >
+          <span aria-hidden='true'></span>
+          <span aria-hidden='true'></span>
+          <span aria-hidden='true'></span>
+        </a>
+      </div>
+      <div id='navbarBasicExample' className={`navbar-menu ${isActive ? 'is-active' : ''}`}>
+        <div className='navbar-end'>
+          <div className='navbar-item'>
+            <a href='/gallery' className='navbar-item'>
+              Gallery
+            </a>
+            <a href={menu} className='navbar-item'>
+              Menu
+            </a>
+          </div>
+        </div>
+      </div>
+    </nav>
+  )
+}
