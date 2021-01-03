@@ -32,11 +32,11 @@ export default () => (
 				{/* Global site tag (gtag.js) - Google Analytics */}
 				<script async src="https://www.googletagmanager.com/gtag/js?id=G-ZEHSJPTM6V"></script>
 				<script>
-					window.dataLayer = window.dataLayer || [];
+					{window.dataLayer = window.dataLayer || [];
 					function gtag(){dataLayer.push(arguments);}
 					gtag('js', new Date());
 
-					gtag('config', 'G-ZEHSJPTM6V');
+					gtag('config', 'G-ZEHSJPTM6V');}
 				</script>
 				{/* Google / Search Engine Meta Tags */}
 				<meta itemprop="name" content={data.site.siteMetadata.author} />
