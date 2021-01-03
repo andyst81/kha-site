@@ -2,14 +2,14 @@ module.exports = {
 	siteMetadata: {
 		title: 'Kha... Gastrobar',
 		author: 'Andy T',
-		imageUrl: 'https://i.imgur.com/Vz81GEl.png',
+		imageUrl: 'https://kha-gastrobar.com/static/kha-bced051a6a8fa4c35d77333199499a48.png',
 		description: 'Modern Thai Dining and awesome drinks on Soi Suan Phlu',
 		keywords: 'Thai food, cocktails, wine, modern Thai food, drinks, cozy',
 		twitter: 'https://twitter.com/andyst81',
 		github: `https://github.com/andyst81`,
 		gatsby: 'https://www.gatsbyjs.org/',
 		bulma: 'https://bulma.io/',
-		siteUrl: `https://kha-gastrobar.com`
+		siteUrl: 'https://kha-gastrobar.com'
 	},
 	plugins: [
 		'gatsby-plugin-react-helmet',
@@ -38,7 +38,7 @@ module.exports = {
 		{
 			resolve: `gatsby-plugin-google-analytics`,
 			options: {
-				trackingId: 'UA-XXXXXXXX-X',
+				trackingId: 'G-ZEHSJPTM6V',
 				// Setting this parameter is optional (requried for some countries such as Germany)
 				anonymize: true
 			}
