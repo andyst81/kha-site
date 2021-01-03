@@ -3,7 +3,7 @@ import "./style.scss";
 import "./App.css";
 import "./gallery.scss";
 
-const imgUrls = ['/gallery/kha1.jpg','/gallery/kha2.jpg','/gallery/kha3.jpg','/gallery/kha4.jpg','/gallery/kha5.jpg','/gallery/kha6.jpg','/gallery/kha7.jpg','/gallery/kha8.jpg','/gallery/kha9.jpg','/gallery/kha10.jpg','/gallery/kha11.jpg','/gallery/kha12.jpg']
+const imgUrls = ['./gallery/kha1.jpg','/gallery/kha2.jpg','/gallery/kha3.jpg','/gallery/kha4.jpg','/gallery/kha5.jpg','/gallery/kha6.jpg','/gallery/kha7.jpg','/gallery/kha8.jpg','/gallery/kha9.jpg','/gallery/kha10.jpg','/gallery/kha11.jpg','/gallery/kha12.jpg']
 
 class Gallery extends React.Component {
   constructor(props) {
