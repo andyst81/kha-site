@@ -7,7 +7,7 @@ export default function Navbar() {
   const [isActive, setisActive] = React.useState(false)
 
   return (
-    <nav className='navbar  gallery-nav' role='navigation' aria-label='main navigation'>
+    <nav className=' gallery-nav' role='navigation' aria-label='main navigation'>
       <div className='navbar-brand'>
         <a href='/' className='navbar-item'>
           <img
