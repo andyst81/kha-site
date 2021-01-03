@@ -1,3 +1,4 @@
+
 $black: #222;
 
 *, *:before, *:after { box-sizing: border-box; }
@@ -82,13 +83,19 @@ body {
 .modale {
   position: fixed;
   z-index: 999;
-  top: 50%;
-  left: 50%;
-  transform: translate3d(-50%, -50%, 0);
   img {
     border: 5px solid #fff;
     width: 100%
   }
+  top: 50%;
+  left: 50%;
+  transform: translate3d(-50%, -50%, 0);
+  @media screen and (max-width: 765px) {
+    top: 10%;
+    left:0%;
+    transform: none;
+  }
+
 }
 
 .modale-overlay {
