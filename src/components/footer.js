@@ -16,14 +16,14 @@ const Footer = () => (
 
       <div className="column is-one-third">
         <h2 className="details">Location</h2>
-        <iframe
-          src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15503.916118252118!2d100.5382668!3d13.7197194!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x4065cb2126eeaa0a!2sKha%20Eatery%20%26%20Bar!5e0!3m2!1sen!2sth!4v1604765152045!5m2!1sen!2sth"
+        <iframe 
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d576.1667110903757!2d100.537496068632!3d13.720134395425115!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30e29f3659a5f467%3A0x4065cb2126eeaa0a!2sKha%20Gastrobar!5e0!3m2!1sen!2sth!4v1661651928837!5m2!1sen!2sth"
           title="map"
         ></iframe>
         <p>
           Kha... Gastrobar,
           <br />
-          433 Thanon Suan Phlu,
+          460 Thanon Suan Phlu,
           <br />
           Thung Maha Mek, Sathon,
           <br />
